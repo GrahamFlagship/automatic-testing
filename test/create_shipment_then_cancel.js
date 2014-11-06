@@ -9,7 +9,7 @@ module.exports = {
    .click('.formtable tbody tr td .button') 
     .click('#recon_holder td:nth-child(4) a ')
     .click('.nextStep')
-    .waitForElement('.rowhover')
+    .waitForElement('.rowhoverings')
     .click('#btnPredispath')
     .wait()
     .click('#step3 .nextStep') // click approve and confirm
